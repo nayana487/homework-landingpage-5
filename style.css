@@ -1,9 +1,9 @@
 body {
   font-family: Open Sans;
 }
-
+/*ND: Nice work with the spacing here*/
 header {
- background-image:url(header_bg.jpg); 
+ background-image:url(header_bg.jpg);
  background-position: center;
  background-size: 100%;
  background-repeat: no-repeat;
@@ -13,6 +13,7 @@ header {
  padding-left: 100px;
  padding-bottom: 70px;
  padding-top: 10px;
+ /*ND: If you're adjusting top, right, left and bottom, you should just use the padding shorthand*/
  color: white;
  font-size: 24px;
 }
@@ -35,13 +36,14 @@ body a {
   color: #033048;
   padding-left: 100px;
   margin-top: 0px;
+  /*ND: No need to specify px or any other unit when the value is 0*/
   margin-left: 100px;
   margin-right: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.benefits1 { 
+.benefits1 {
   font-weight: 600;
   font-size: 20px;
 }
@@ -112,6 +114,7 @@ footer {
 .test2 {
   font-weight: 600;
   font-style: normal;
+  /*ND: Why specify the default setting? Doesn't look like there's anything overriding this*/
 }
 .get {
   font-weight: 800;
